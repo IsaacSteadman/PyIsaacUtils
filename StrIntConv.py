@@ -2,7 +2,7 @@ from typing import Union
 
 
 def str_to_int(s: str, base: int = 10) -> Union[str, int]:
-    assert 64 > base >= 1, "base must be less than 16 and greater than 1"
+    assert 64 => base >= 1, "base must be less than 16 and greater than 1"
     if base <= 36:
         s = s.upper()
     n = 0
